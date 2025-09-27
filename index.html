@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Logic Hub -- Aditya's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Pompiere&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-nav">
-            <div class="left" style="margin: 10px 0 10px 20px;">Creative Logic Hub</div>
-            <!-- <div class="social-media" style="display: flex; align-items:center;gap:20px;">
-                <i><img data-v-30aad7a6="" data-image-id="2mIgusGquJFz" src="https://img.icons8.com/?size=1200&amp;id=2mIgusGquJFz&amp;format=png" srcset="https://img.icons8.com/?size=48&amp;id=2mIgusGquJFz&amp;format=png 1x, https://img.icons8.com/?size=96&amp;id=2mIgusGquJFz&amp;format=png 2x" width="48" height="48" alt="windows 11 color style discord icon" class="loaded"></i>
-                <i><img data-v-30aad7a6="" data-image-id="63306" src="https://img.icons8.com/?size=1200&amp;id=63306&amp;format=png" srcset="https://img.icons8.com/?size=48&amp;id=63306&amp;format=png 1x, https://img.icons8.com/?size=96&amp;id=63306&amp;format=png 2x" width="48" height="48" alt="color style telegram icon" class="loaded"></i>
-            </div> -->
+            <div class="left" style="margin: 10px 0 10px 50px;">Creative Logic Hub</div>
+            <div class="frame">
+                <button class="custom-btn btn-4" style="border-radius: 10cm;"><span>Login</span></button>
+                <button class="custom-btn btn-4"  style="border-radius: 10cm;"><span>SignUp</span></button>
+            </div>
             <div class="right" style="background-color: rgb(255, 255, 255); height: 60px; display: flex; justify-content: center; align-items: center;border-radius: 2cm 0 0 2cm;">
                 <ul>
                     <li class="bar"><a href="#">Home</a></li>
                     <li class="bar"><a href="#">About Me</a></li>
+                    <li class="bar"><a href="#">Skills</a></li>
                     <li class="bar"><a href="#">Projects</a></li>
                     <li class="bar"><a href="#">Services</a></li>
                     <li class="bar"><a href="#">Contact</a></li>
@@ -29,16 +32,26 @@
         <section class="herosection">
             <div class="leftsection">Hi, My Name is <span class="name">Aditya Banerjee</span>
                 <div> and I am a Passionate & Creative<br><span id="element" style="color: #0fa;"></span></div>
+                <p style="font-size: 1.6rem; padding-top: 30px; color:#e0e0e0">As a young and creative web developer, I enjoy turning visions <br> into reality. Whether it’s a portfolio, a blog, or a business website,<br> I  focus on building digital experiences that truly stand out.</p>
+                <div class="frame" style="padding-top: 30px; ">
+                    <button class="custom-btn btn-7"><span style="font-size: 1.2rem;">Hire Me</span></button>
+                    <button class="custom-btn btn-7"><span style="font-size: 1.2rem;">View Work</span></button>
+                    <button class="custom-btn btn-7"><span style="font-size: 1.2rem;">Get in Touch</span></button>
+                    <button class="custom-btn btn-7"><span style="font-size: 1.2rem;">Download Cv</span></button>
+                </div>  
             </div>
             <div class="rightsection"><img src="side_image.png" alt="Human Error" height="550px" style="padding-left: 100px;"></div>
         </section>
         <hr class="line1">
+        <section class="aboutsection">
+
+        </section>
     </main>
     <footer></footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: [ 'Front End Deveoper',' Web Designer ','&amp; FreeLancer !'],
+            strings: [ 'Front End Deveoper :)',' Web Designer  ','&amp; FreeLancer !'],
             typeSpeed: 90,
             loop: true
         });
