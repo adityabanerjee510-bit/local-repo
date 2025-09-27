@@ -1,3 +1,126 @@
-p{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: linear-gradient(1350deg, #0a1f1a 0%, #1a332e 40%, #0f2419 70%, #061008 100%);
+
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.header-nav .right ul {
+    display: flex;
+    justify-content: center;
+}
+.right{
+    color: #fff;
+    text-shadow:
+    /* White glow */
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+    /* Green glow */
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+.right ul li {
+    list-style: none;
+    margin: 0 27px;
+    font-size: 1.4rem;;
+}
+.right ul li a{
+    text-decoration: none;
+    color:#25856f;
+    font-weight: 700;
+}
+.right ul li a:hover {
+    color: rgb(0, 106, 86);
+    transition: smooth;
+}
+
+.left{
+    list-style: none;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.left {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+    }
+  
+    20%, 24%, 55% {        
+      text-shadow: none;
+    }    
+    
+  }
+.herosection {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+  }
+
+.firstSection > div {
+    width: 30%;
+}
+
+.leftsection {
+    padding-top: 50px;
+    padding-left: 40px;;
+    font-size: 3.4rem;
+    color: #fff;
+}
+.rightsection{
+   
+}
+.name{
+    color: #0fa;
+}
+.line1{
+    border: 0;
+    height: 2px;
+    background: #0fa;
+    margin:4px 0;
+    box-shadow: 0 0 12px #0fa;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    border-radius: 5px;
+    animation: glow 2s infinite alternate;
+    
 }
